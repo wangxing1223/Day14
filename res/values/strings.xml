@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Day14</string>
+    <string name="AutoCompleteTextView">自动文本提示框</string>
+    <string name="AutoCompleteTextViewShow">自动文本提示框演示</string>
+    <string name="all">所有通话记录</string>
+    <string name="received">已接来电</string>
+    <string name="missed">未接来电</string>
+</resources>

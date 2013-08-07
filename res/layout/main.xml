@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one"
+            android:id="@+id/one" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two"
+            android:id="@+id/two" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action"
+            android:id="@+id/action" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:id="@+id/phone" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="call"
+            android:id="@+id/Call" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tab"
+            android:id="@+id/tab" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="processbar"
+            android:id="@+id/processbar" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="list"
+            android:id="@+id/list" android:layout_gravity="left|center_vertical"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data"
+            android:id="@+id/data" android:layout_gravity="left|center_vertical"/>
+</LinearLayout>
+

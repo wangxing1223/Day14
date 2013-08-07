@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:tag="all"
+            android:text="所有通话记录"
+            android:id="@+id/all" android:layout_gravity="left|top"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="ok"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="已接来电"
+            android:id="@+id/ok" android:layout_gravity="center_horizontal|top"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="未接来电"
+            android:tag="cancel"
+            android:id="@+id/cancel" android:layout_gravity="right|top"/>
+</FrameLayout>
